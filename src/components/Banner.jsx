@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import bannerVideo from "../assets/banner_video.mp4";
-import bannerImage from "../assets/styleskating.jpg";
-import {DummyPopupAdvertisment} from "./DummyPopupAdvertisment";
+import { DummyPopupAdvertisment } from "./DummyPopupAdvertisment";
 
 export const Banners = () => {
   const [videoError, setVideoError] = useState(false);
@@ -24,7 +22,7 @@ export const Banners = () => {
 
   return (
     <>
-    <DummyPopupAdvertisment />
+      <DummyPopupAdvertisment />
       <section
         className="bsb-hero-5 px-3 bsb-overlay position-relative d-flex align-items-center justify-content-center text-center"
         style={{ minHeight: "800px", overflow: "hidden" }}
@@ -39,9 +37,9 @@ export const Banners = () => {
             className="position-absolute w-100 h-100"
             style={{ objectFit: "cover", zIndex: -1 }}
           >
-            <source src={bannerVideo} type="video/mp4" />
+            <source src="/assets/banner_video.mp4" type="video/mp4" />
             <img
-              src={bannerImage}
+              src="/assets/styleskating.jpg"
               alt="Banner Falling back"
               className="w-100 h-100"
               style={{ objectFit: "cover" }}
@@ -49,7 +47,7 @@ export const Banners = () => {
           </video>
         ) : (
           <img
-            src={bannerImage}
+            src="/assets/styleskating.jpg"
             alt="Banner"
             className="position-absolute w-100 h-100"
             style={{ objectFit: "cover", zIndex: -1 }}

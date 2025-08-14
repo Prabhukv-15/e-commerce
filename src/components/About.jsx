@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import AboutVideo from "../assets/walking_Shopping_Bags_Shopping_3840x2160.mp4";
-import bannerImage from "../assets/styleskating.jpg";
+// import AboutVideo from "../assets/walking_Shopping_Bags_Shopping_3840x2160.mp4";
+// import bannerImage from "../assets/styleskating.jpg";
 
 export const About = () => {
   const navigate = useNavigate();
@@ -124,9 +124,9 @@ export const About = () => {
               className="about-video"
               style={{ opacity: videoLoaded ? 1 : 0, transition: 'opacity 1s ease-in' }}
               // In case the video fails to load, the image will be the background
-              poster={bannerImage}
+              poster="/assets/styleskating.jpg"
             >
-              <source src={AboutVideo} type="video/mp4" />
+              <source src="/assets/walking_Shopping_Bags_Shopping_3840x2160.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

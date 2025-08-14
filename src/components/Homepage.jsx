@@ -17,28 +17,28 @@ export const Homepage = () => {
       id: 1,
       name: "Summer Vibes T-Shirt",
       price: 200,
-      image: "/src/assets/t-shirt.jpg",
+      image: "/assets/t-shirt.jpg",
       link: "https://www.ottostore.com/collections/shirts?srsltid=AfmBOop4ol-b_WwU0ihbbsMJePt1kHnRzx21vFcHf-jdRmjCFUgrcTxt",
     },
     {
       id: 2,
       name: "Noise-Cancelling Headphones",
       price: 2199,
-      image: "/src/assets/eadphonesl.jpg",
+      image: "/assets/eadphonesl.jpg",
       link: "https://www.gonoise.com/products/noise-pure-pods-open-ear-headphones?variant=40406688890967&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_source=google&utm_medium=cpc&utm_campaign=18427462047&tw_source=google&tw_adid=&tw_campaign=18427462047&gad_source=1&gad_campaignid=18431033257&gbraid=0AAAAADg92wIOQqo5NltP3xxpHHJPnqAxJ&gclid=CjwKCAjw7_DEBhAeEiwAWKiCC8I597MYrBMybov9Kprz8uAZKsmms-xUIe6taeEIQ_EQqahrcuaOgBoCjfoQAvD_BwE",
     },
     {
       id: 3,
       name: "Stylish Leather Wallet",
       price: 699,
-      image: "/src/assets/pexels-vlada-karpovich-4452390.jpg",
+      image: "/assets/pexels-vlada-karpovich-4452390.jpg",
       link: "https://louisphilippe.abfrl.in/c/men-wallets?srsltid=AfmBOoqw5s9bDsID0GPpLWVm8_9nm4ynq2WFCBJ5qoBEAmxSB9SSjiW8",
     },
     {
       id: 4,
       name: "Luxury Smartwatch",
       price: 1599,
-      image: "/src/assets/watch.jpg",
+      image: "/assets/watch.jpg",
       link: "https://www.fireboltt.com/collections/luxe-collection?srsltid=AfmBOorSgDuywc_WSJA52-9KLqx3XzprTw-SaeD2PckFqgGjGnF3Ac8f",
     },
   ];
@@ -58,7 +58,7 @@ export const Homepage = () => {
           .hero-section {
             position: relative;
             height: 60vh;
-            background: url('/assets/hero-bg.jpg') no-repeat center center/cover;
+            background: url('/assets/jacket.jpg') no-repeat center center/cover;
             display: flex;
             align-items: center;
             justify-content: center;

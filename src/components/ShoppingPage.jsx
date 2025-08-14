@@ -82,7 +82,7 @@ export const ShoppingPage = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
           className="bg-light py-5 text-center position-relative overflow-hidden"
           style={{
-            backgroundImage: "url(/src/assets/greenwithwhite.jpg)",
+            backgroundImage: "url(/assets/greenwithwhite.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -169,7 +169,7 @@ export const ShoppingPage = () => {
                 <Card className="border-0 bg-warning text-dark shadow-sm">
                   <Card.Img
                     variant="top"
-                    src="/src/assets/hat.jpg"
+                    src="/assets/hat.jpg"
                     alt="Men's Sunglasses"
                     style={{ height: "200px", objectFit: "cover" }}
                   />
@@ -179,7 +179,7 @@ export const ShoppingPage = () => {
                       onClick={() => handleAddToCart({ name: "Men's Sunglasses" })}
                       className="w-100"
                     >
-                      <h5>Men's Sunglasses</h5>
+                      <h5>Men's hat</h5>
                     </Button>
                   </Card.Body>
                 </Card>
@@ -194,7 +194,7 @@ export const ShoppingPage = () => {
                 <Card className="border-0 bg-warning text-dark shadow-sm">
                   <Card.Img
                     variant="top"
-                    src="/src/assets/sneakers.jpg"
+                    src="/assets/sneakers.jpg"
                     alt="Men's Sneaker"
                     style={{ height: "200px", objectFit: "cover" }}
                   />
@@ -219,7 +219,7 @@ export const ShoppingPage = () => {
                 <Card className="border-0 bg-warning text-dark shadow-sm">
                   <Card.Img
                     variant="top"
-                    src="/src/assets/t-shirt.jpg"
+                    src="/assets/t-shirt.jpg"
                     alt="Men's T-Shirt"
                     style={{ height: "200px", objectFit: "cover" }}
                   />

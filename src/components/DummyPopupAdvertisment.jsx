@@ -34,7 +34,7 @@ export const DummyPopupAdvertisment = () => {
 
   // Ad content
   const adContent = {
-    image: "/src/assets/laddykidssss0.jpg", // Ensure this is in public/assets
+    image: "/assets/laddykidssss0.jpg", // Ensure this is in public/assets
     title: "Special Offer!",
     description: "Get 20% off on all T-Shirts this week only.",
     link: "https://www.amazon.in/s?k=t-shirt",

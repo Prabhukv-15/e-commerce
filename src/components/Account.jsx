@@ -6,11 +6,7 @@ export const Account = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
   const [editMode, setEditMode] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-  });
+  const [formData, setFormData] = useState({name: "",email: "",phone: ""});
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -22,11 +18,7 @@ export const Account = () => {
       if (storedUser) {
         const userData = JSON.parse(storedUser);
         setUser(userData);
-        setFormData({
-          name: userData.name || "",
-          email: userData.email || "",
-          phone: userData.phone || "",
-        });
+        setFormData({name: userData.name || "",  email: userData.email || "",  phone: userData.phone || ""  });
       }
       setLoading(false);
     } catch (err) {
@@ -69,7 +61,7 @@ export const Account = () => {
     try {
       const updatedUser = {
         ...user,
-        name: formData.name,
+        name:  formData.name,
         email: formData.email,
         phone: formData.phone,
       };

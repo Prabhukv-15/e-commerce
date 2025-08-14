@@ -45,7 +45,7 @@ export const Register = () => {
     <div
       className="d-flex justify-content-center align-items-center min-vh-100"
       style={{
-        backgroundImage: "url('/src/assets/form-green-plant.jpg')",
+        backgroundImage: "url('/assets/form-green-plant.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

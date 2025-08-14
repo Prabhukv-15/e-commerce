@@ -7,15 +7,15 @@ export const FlashOffers = () => {
   const [timeLeft, setTimeLeft] = useState(3600); // 1 hour in seconds
 
   const flashOffers = [
-    { name: "Banana", originalPrice: 30, discount: 20, discountedPrice: 24, image: "/src/assets/banana.jpg" },
-    { name: "Potato", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/src/assets/potato.jpg" },
-    { name: "chips", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/src/assets/chips.jpg" },
-    { name: "namkeen", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/src/assets/namkeen.jpg" },
-    { name: "apples", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/src/assets/apple.jpg" },
-    { name: "Potato", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/src/assets/potato.jpg" },
-    { name: "jeans", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/src/assets/jeans.jpg" },
-    { name: "hat", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/src/assets/hat.jpg" },
-    { name: "Skirt", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/src/assets/sirt.jpg" },
+    { name: "Banana", originalPrice: 30, discount: 20, discountedPrice: 24, image: "/assets/banana.jpg" },
+    { name: "Potato", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/assets/potato.jpg" },
+    { name: "chips", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/assets/chips.jpg" },
+    { name: "namkeen", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/assets/namkeen.jpg" },
+    { name: "apples", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/assets/apple.jpg" },
+    { name: "Potato", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/assets/potato.jpg" },
+    { name: "jeans", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/assets/jeans.jpg" },
+    { name: "hat", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/assets/hat.jpg" },
+    { name: "Skirt", originalPrice: 15, discount: 15, discountedPrice: 12.75, image: "/assets/sirt.jpg" },
   ];
 
   useEffect(() => {

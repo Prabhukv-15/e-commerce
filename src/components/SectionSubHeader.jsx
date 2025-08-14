@@ -33,7 +33,7 @@ export const SectionSubHeader = () => {
       title: "Top Deals",
       items: [
         {
-          img: "/src/assets/tablet.png",
+          img: "/assets/tablet.png",
           title: "Apple iPads",
           subtitle: "Shop Now!",
           relatedProducts: [
@@ -54,7 +54,7 @@ export const SectionSubHeader = () => {
           ],
         },
         {
-          img: "/src/assets/picture.png",
+          img: "/assets/picture.png",
           title: "Instax Cameras",
           subtitle: "From ₹3,999",
           relatedProducts: [
@@ -76,7 +76,7 @@ export const SectionSubHeader = () => {
         },
         // Add similar mock data for other items
         {
-          img: "/src/assets/cologne.png",
+          img: "/assets/cologne.png",
           title: "Perfume & more",
           subtitle: "Min 50% Off",
           relatedProducts: [
@@ -97,7 +97,7 @@ export const SectionSubHeader = () => {
           ],
         },
         {
-          img: "/src/assets/usb-cable.png",
+          img: "/assets/usb-cable.png",
           title: "Grab Now",
           subtitle: "From ₹49",
           relatedProducts: [
@@ -118,7 +118,7 @@ export const SectionSubHeader = () => {
           ],
         },
         {
-          img: "/src/assets/phone-charger.png",
+          img: "/assets/phone-charger.png",
           title: "Buy Now",
           subtitle: "From ₹99",
           relatedProducts: [
@@ -139,7 +139,7 @@ export const SectionSubHeader = () => {
           ],
         },
         {
-          img: "/src/assets/pencils.png",
+          img: "/assets/pencils.png",
           title: "Apple Pencil",
           subtitle: "Shop Now",
           relatedProducts: [
@@ -187,7 +187,7 @@ export const SectionSubHeader = () => {
       title: "Cloths, Accessories & More",
       items: [
         {
-          img: "/src/assets/wedding-dress.png",
+          img: "/assets/wedding-dress.png",
           title: "Wedding Dress",
           subtitle: "From ₹1699",
           relatedProducts: [
@@ -208,7 +208,7 @@ export const SectionSubHeader = () => {
           ],
         },
         {
-          img: "/src/assets/high-heel.png",
+          img: "/assets/high-heel.png",
           title: "High Heels",
           subtitle: "From ₹89",
           relatedProducts: [
@@ -229,7 +229,7 @@ export const SectionSubHeader = () => {
           ],
         },
         {
-          img: "/src/assets/baseball-cap.png",
+          img: "/assets/baseball-cap.png",
           title: "Caps",
           subtitle: "Upto 80% Off",
           relatedProducts: [
@@ -250,7 +250,7 @@ export const SectionSubHeader = () => {
           ],
         },
         {
-          img: "/src/assets/smart-watch.png",
+          img: "/assets/smart-watch.png",
           title: "Smart Watch",
           subtitle: "From ₹1399",
           relatedProducts: [
@@ -271,7 +271,7 @@ export const SectionSubHeader = () => {
           ],
         },
         {
-          img: "/src/assets/icons8-shirt-99.png",
+          img: "/assets/icons8-shirt-99.png",
           title: "Shirts",
           subtitle: "Upto 70% Off",
           relatedProducts: [
@@ -306,7 +306,7 @@ export const SectionSubHeader = () => {
           ],
         },
         {
-          img: "/src/assets/camera-bag.png",
+          img: "/assets/camera-bag.png",
           title: "Camera Bags",
           subtitle: "Min 50% Off",
           relatedProducts: [

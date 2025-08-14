@@ -42,7 +42,6 @@ export const Headers = ({ cartCount = 0, totalPrice = 0 })=> {
                     )}
                     <span className="block text-xs
                      text-right mt-1 text-gray-500">
-                        {/* ${totalPrice.toF} */}
                          ${totalPrice.toFixed(2)}
                     </span>
                 </FaShoppingBag>

@@ -43,14 +43,14 @@ export const OrderList = () => {
                       <Image
                         src={
                           item.image ||
-                          "/src/assets/happy-beautiful-couple.jpg"
+                          "/assets/happy-beautiful-couple.jpg"
                         }
                         alt={item.name || product.name}
                         fluid
                         rounded
                         onError={(e) => {
                           e.target.src =
-                            "/src/assets/happy-beautiful-couple.jpg";
+                            "/assets/happy-beautiful-couple.jpg";
                         }}
                       />
                     </Col>

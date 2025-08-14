@@ -127,7 +127,6 @@ const App = () => {
         </button>
       </div>
 
-      {/* Sidebar component */}
       <Sidebar 
         onSelect={setActiveSection} 
         active={activeSection}
@@ -135,7 +134,6 @@ const App = () => {
         onToggle={() => setIsSidebarOpen(!isSidebarOpen)}
       />
 
-      {/* Main content area */}
       <main className={`transition-all duration-300 md:ml-64 p-4 ${isSidebarOpen ? 'ml-64' : 'ml-0'}`}>
         {renderContent()}
       </main>

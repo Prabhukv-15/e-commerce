@@ -15,15 +15,15 @@ export const Fashion = () => {
 
   // Image mapping for each item
   const itemImages = {
-    "t-shirt": "/src/assets/t-shirt.jpg",
-    "jeans": "/src/assets/jeans.jpg",
-    "shirt": "/src/assets/shirt.jpg",
-    "dress": "/src/assets/womens_cloths.jpg",
-    "skirt": "/src/assets/sirt.jpg", //grils        D:\projects\company\frontend/src/assets/hat.jpg      D:\projects\company\frontend\src\assets\womens_cloths.jpg
-    "top": "/src/assets/top_1.jpg",
-    "jacket": "/src/assets/jacket.jpg",
-    "shoes": "/src/assets/shoes.jpg",
-    "hat": "/src/assets/hat.jpg",
+    "t-shirt": "/assets/t-shirt.jpg",
+    "jeans": "/assets/jeans.jpg",
+    "shirt": "/assets/shirt.jpg",
+    "dress": "/assets/womens_cloths.jpg",
+    "skirt": "/assets/sirt.jpg", //grils        D:\projects\company\frontend/src/assets/hat.jpg      D:\projects\company\frontend\src\assets\womens_cloths.jpg
+    "top": "/assets/top_1.jpg",
+    "jacket": "/assets/jacket.jpg",
+    "shoes": "/assets/shoes.jpg",
+    "hat": "/assets/hat.jpg",
   };
   const itemPrices = {
     "T-Shirt": 500,

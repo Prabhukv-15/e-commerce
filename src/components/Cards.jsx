@@ -17,10 +17,10 @@ export const Cards = () => {
     // const newItems = [... ]
   }
   const products = [
-    { id: 1, imageUrl: "/src/assets/whiteTshit.jpg" ||[], title: "White T-Shirt", text: "A classic white t-shirt for everyday wear." },
-    { id: 2, imageUrl: "/src/assets/pexels-timothy-paule-ii-614774-1433191.jpg" ||[], title: "Fashion Jacket", text: "Stylish jacket for all seasons." },
-    { id: 3, imageUrl: "/src/assets/westernstyl.jpg", title: "Western Style"||[], text: "Trendy western outfit for men." },
-    { id: 4, imageUrl: "/src/assets/womenkids.jpg", title: "Women & Kids"||[], text: "Fashion for women and kids collection." },
+    { id: 1, imageUrl: "/assets/whiteTshit.jpg" ||[], title: "White T-Shirt", text: "A classic white t-shirt for everyday wear." },
+    { id: 2, imageUrl: "/assets/pexels-timothy-paule-ii-614774-1433191.jpg" ||[], title: "Fashion Jacket", text: "Stylish jacket for all seasons." },
+    { id: 3, imageUrl: "/assets/westernstyl.jpg", title: "Western Style"||[], text: "Trendy western outfit for men." },
+    { id: 4, imageUrl: "/assets/womenkids.jpg", title: "Women & Kids"||[], text: "Fashion for women and kids collection." },
   ];
 
   return (
@@ -30,7 +30,7 @@ export const Cards = () => {
           <div key={product.id} className="col-12 col-md-6 col-lg-3">
             <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: (product.id - 1) * 0.1 }}
-              whileHover={{ scale: 1.20 }}
+              whileHover={{ scale: 1.30 }}
             >
               <Card className="h-100 shadow-sm border-0">
                 <Card.Img

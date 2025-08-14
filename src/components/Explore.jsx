@@ -24,7 +24,7 @@ export const Explore = () => {
       name: "Summer Vibes T-Shirt",
       offer: "Flat 30% OFF!",
       price: 200,
-      image: "/src/assets/t-shirt.jpg",
+      image: "/assets/t-shirt.jpg",
       link: "#",
     },
     {
@@ -32,7 +32,7 @@ export const Explore = () => {
       name: "Noise-Cancelling Headphones",
       offer: "Save up to $50",
       price: 2199,
-      image: "/src/assets/eadphonesl.jpg",
+      image: "/assets/eadphonesl.jpg",
       link: "#",
     },
     {
@@ -40,7 +40,7 @@ export const Explore = () => {
       name: "Stylish Leather Wallet",
       offer: "Buy 1 Get 1 Free",
       price: 699,
-      image: "/src/assets/pexels-vlada-karpovich-4452390.jpg",
+      image: "/assets/pexels-vlada-karpovich-4452390.jpg",
       link: "#",
     },
     {
@@ -48,7 +48,7 @@ export const Explore = () => {
       name: "Luxury Smartwatch",
       offer: "Flash Sale - 25% Off",
       price: 1599,
-      image: "/src/assets/watch.jpg",
+      image: "/assets/watch.jpg",
       link: "#",
     },
     {
@@ -56,7 +56,7 @@ export const Explore = () => {
       name: "Handmade Ceramic Mug",
       offer: "Limited Edition",
       price: 199,
-      image: "/src/assets/handmade-cup-books-closeup-wooden-surface.jpg",
+      image: "/assets/handmade-cup-books-closeup-wooden-surface.jpg",
       link: "#",
     },
     {
@@ -64,20 +64,20 @@ export const Explore = () => {
       name: "Outdoor Adventure Backpack",
       offer: "New Arrival!",
       price: 5000,
-      image: "/src/assets/side-view-traveler-discovered-area-with-benches.jpg",
+      image: "/assets/side-view-traveler-discovered-area-with-benches.jpg",
       link: "#",
     },
   ];
-  const productImage = [
-    {
-      image: "/src/assets/side-view-traveler-discovered-area-with-benches.jpg",
-      image: "/src/assets/handmade-cup-books-closeup-wooden-surface.jpg",
-      image: "/src/assets/watch.jpg",
-      image: "/src/assets/pexels-vlada-karpovich-4452390.jpg",
-      image: "/src/assets/eadphonesl.jpg",
-      image: "/src/assets/t-shirt.jpg",
-    },
-  ];
+  // const productImage = [
+  //   {
+  //     image: "/src/assets/side-view-traveler-discovered-area-with-benches.jpg",
+  //     image: "/src/assets/handmade-cup-books-closeup-wooden-surface.jpg",
+  //     image: "/src/assets/watch.jpg",
+  //     image: "/src/assets/pexels-vlada-karpovich-4452390.jpg",
+  //     image: "/src/assets/eadphonesl.jpg",
+  //     image: "/src/assets/t-shirt.jpg",
+  //   },
+  // ];
 
   useEffect(() => {
     setIsVisible(true);
