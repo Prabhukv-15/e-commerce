@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  /* background-color: #f8f9fa; Light gray background */
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-top: -0.5rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+.product-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease;
+  cursor: pointer;
+  position: relative;
+  opacity: 0; /* Initially hidden for fade-in effect */
+  transform: translateY(20px);
+  background-color: #ffffff;
+}
+
+.product-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.product-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.product-card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
+
+.product-offer {
+  font-weight: 500;
+  color: #0d6efd; /* Bootstrap primary color */
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.offer-icon {
+  color: #ffc107; /* Bootstrap warning color for star */
+}
+
+.explore-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.explore-button:hover {
+  background-color: #0a58ca;
+  transform: translateY(-2px);
+  border-color: #0a58ca;
+}
+
+.explore-button:hover .explore-icon {
+  transform: translateX(5px);
+}
+
+.explore-icon {
+  transition: transform 0.3s ease;
+}
+
+/* Keyframe animations for section title */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

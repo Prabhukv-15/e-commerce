@@ -1,0 +1,25 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding-left: 200px; /* Matches Sidebar width + some padding */
+  padding-top: 60px; /* Matches Navbar height */
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .sidebar {
+    width: 100%;
+    top: 0;
+  }
+}
